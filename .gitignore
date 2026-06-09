@@ -1,0 +1,13 @@
+# Obsidian — UI 상태/캐시 (자주 바뀜, 동기화 불필요)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+
+# Obsidian 휴지통
+.trash/
+
+# Claude 로컬 설정
+.claude/settings.local.json
+
+# macOS
+.DS_Store
