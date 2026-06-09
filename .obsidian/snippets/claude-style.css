@@ -12,11 +12,11 @@
   --cld-coral: #D97757;
   --cld-coral-hover: #C15F3C;
 
-  /* 웜 크림 배경 팔레트 */
-  --background-primary: #F5F4EE;
-  --background-primary-alt: #F0EEE6;
-  --background-secondary: #EFEDE4;
-  --background-secondary-alt: #E8E6DC;
+  /* 배경: 노트 페이지·사이드바 흰색 */
+  --background-primary: #FFFFFF;
+  --background-primary-alt: #FAFAF9;
+  --background-secondary: #FFFFFF;
+  --background-secondary-alt: #F4F3EF;
 
   /* 텍스트 (웜 그레이) */
   --text-normal: #2E2E2B;
