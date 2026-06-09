@@ -27,14 +27,11 @@ description: Use when the user asks to save the current conversation's content i
   - 이미 있으면: 새로 만들지 말고 기존 노트를 **보강**하거나, 관련 있으면 `[[링크]]`만 추가.
 - 새로 만든 노트들끼리, 그리고 관련된 기존 노트와 **양방향으로 `[[링크]]`** 를 건다.
 
-### 5. 각 노트 작성 규칙
+### 5. 각 노트 작성 규칙 (태그·링크 중심, 간결하게)
 - **파일명**: 개념을 드러내는 간결한 제목 (예: `knowledge/React useEffect 의존성 배열.md`). 개념 언어를 그대로 따른다.
-- **frontmatter**:
-  - `tags`: `knowledge`(또는 `troubleshooting`) + **도메인 태그**(예: `react`, `postgres`, `network`).
-  - `created`: 오늘 날짜 `YYYY-MM-DD`.
-  - `source`: 어디서 나온 내용인지(대화/웹검색 등).
-- **본문**: 핵심 결론을 먼저, 그다음 부연. 개념 하나에 집중.
-- **`## 관련 노트`**: `[[다른 노트]]` 링크 모음.
+- **frontmatter**: `tags`만 둔다 — `knowledge`(또는 `troubleshooting`) + **도메인 태그**(예: `react`, `postgres`). `created`·`source` 같은 메타 필드는 넣지 않는다.
+- **본문**: 핵심 결론을 먼저, 그다음 짧은 부연. 개념 하나에 집중.
+- **`## 관련 노트`**: `[[다른 노트]]` 링크. **최소 1개 이상** — 그래프 뷰에서 연결되는 게 목적이다.
 
 ### 6. 마무리 보고
 - 만든/수정한 파일 목록과 각 노트가 어떤 개념을 담았는지, 어떻게 링크했는지 **간단히 요약**한다.
