@@ -1,7 +1,8 @@
 {
   "theme": "moonstone",
-  "accentColor": "#d97757",
   "enabledCssSnippets": [
     "claude-style"
-  ]
+  ],
+  "accentColor": "#d97757",
+  "cssTheme": "Minimal"
 }
