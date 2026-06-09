@@ -1,0 +1,6 @@
+/* 메타 파일(CLAUDE.md, 스타일 가이드)을 파일 탐색기에서 숨김
+   — 검색·빠른 전환·위키링크는 그대로 동작 */
+.nav-file:has(> .nav-file-title[data-path="CLAUDE.md"]),
+.nav-file:has(> .nav-file-title[data-path="스타일 가이드.md"]) {
+  display: none;
+}
