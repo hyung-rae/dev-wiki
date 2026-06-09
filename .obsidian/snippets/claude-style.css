@@ -3,6 +3,10 @@
    라이트 모드 전용 (.theme-light 스코프). 다크 모드는 미변경.
    ============================================================ */
 
+/* 웹폰트: Inter(영문) + Pretendard(한글) — CDN 로드, 설치 불필요 */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css");
+
 .theme-light {
   /* 코랄/클레이 액센트 (Claude 시그니처) */
   --cld-coral: #D97757;
@@ -45,13 +49,14 @@
   --file-line-width: 46rem;
 }
 
-/* 본문 폰트 (한글 깨짐 방지 fallback 포함) */
+/* 본문 폰트: 영문 Inter → 한글 Pretendard (없는 글리프는 다음으로 폴백) */
 .theme-light {
-  --font-text: -apple-system, BlinkMacSystemFont, "Pretendard",
-    "Apple SD Gothic Neo", system-ui, sans-serif;
+  --font-text: "Inter", "Pretendard Variable", "Pretendard",
+    -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo",
+    system-ui, sans-serif;
 }
 
-/* 제목: 세리프 + 코랄 강조 (읽기 뷰 + 라이브 프리뷰 양쪽) */
+/* 제목: 본문과 동일 산세리프 + 코랄 강조 (읽기 뷰 + 라이브 프리뷰 양쪽) */
 .theme-light {
   --h1-color: var(--cld-coral);
   --h2-color: var(--cld-coral);
@@ -68,8 +73,9 @@
 .theme-light .markdown-rendered h5,
 .theme-light .markdown-rendered h6,
 .theme-light .markdown-source-view.mod-cm6 .HyperMD-header {
-  font-family: "Georgia", "New York", "Apple SD Gothic Neo", serif;
-  letter-spacing: -0.01em;
+  font-family: var(--font-text);
+  font-weight: 700;
+  letter-spacing: -0.02em;
   color: var(--cld-coral);
 }
 
