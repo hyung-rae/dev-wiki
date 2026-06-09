@@ -51,15 +51,26 @@
     "Apple SD Gothic Neo", system-ui, sans-serif;
 }
 
-/* 제목: 세리프 + 다크 웜 그레이 (읽기 뷰 + 라이브 프리뷰 양쪽) */
+/* 제목: 세리프 + 코랄 강조 (읽기 뷰 + 라이브 프리뷰 양쪽) */
+.theme-light {
+  --h1-color: var(--cld-coral);
+  --h2-color: var(--cld-coral);
+  --h3-color: var(--cld-coral);
+  --h4-color: var(--cld-coral);
+  --h5-color: var(--cld-coral);
+  --h6-color: var(--cld-coral);
+}
+
 .theme-light .markdown-rendered h1,
 .theme-light .markdown-rendered h2,
 .theme-light .markdown-rendered h3,
 .theme-light .markdown-rendered h4,
+.theme-light .markdown-rendered h5,
+.theme-light .markdown-rendered h6,
 .theme-light .markdown-source-view.mod-cm6 .HyperMD-header {
   font-family: "Georgia", "New York", "Apple SD Gothic Neo", serif;
   letter-spacing: -0.01em;
-  color: var(--text-normal);
+  color: var(--cld-coral);
 }
 
 /* h1 아래 은은한 코랄 구분선 */
