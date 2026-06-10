@@ -3,10 +3,19 @@
   "search": "",
   "showTags": true,
   "showAttachments": false,
-  "hideUnresolved": true,
-  "showOrphans": true,
+  "hideUnresolved": false,
+  "showOrphans": false,
   "collapse-color-groups": false,
-  "colorGroups": [],
+  "colorGroups": [
+    {
+      "query": "path:\"knowledge/\"",
+      "color": { "a": 1, "rgb": 49061 }
+    },
+    {
+      "query": "path:\"데일리/\"",
+      "color": { "a": 1, "rgb": 8440772 }
+    }
+  ],
   "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": -0.2,
@@ -17,6 +26,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1.7935206114264293,
+  "scale": 1.2037878823437578,
   "close": true
 }

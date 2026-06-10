@@ -1,6 +1,10 @@
 {
   "theme": "moonstone",
-  "enabledCssSnippets": [],
-  "accentColor": "#d97757",
+  "enabledCssSnippets": [
+    "claude-style",
+    "hide-meta-files",
+    "mono-accent"
+  ],
+  "accentColor": "#009688",
   "cssTheme": "Minimal"
 }
