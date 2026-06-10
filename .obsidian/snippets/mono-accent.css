@@ -13,3 +13,14 @@ body {
   --graph-node-unresolved: #cfcfcf; /* 미해결 링크: 더 옅게 */
   --graph-node-focused: #009688;    /* 포커스/hover: teal 강조 */
 }
+
+/* 그래프 뷰 — 태그 노드·연결선은 기본 상태에서 흐리게.
+   노트(콘텐츠) 노드를 두드러지게 하고, 태그는 보조적으로 깔린다.
+   호버/포커스 시에는 Obsidian이 자동으로 다시 또렷해진다.
+   주의: .color-line은 전체 연결선에 적용된다(태그 연결선만 타겟 불가). */
+.graph-view.color-fill-tag {
+  opacity: 0.35 !important;
+}
+.graph-view.color-line {
+  opacity: 0.4;
+}
