@@ -3,8 +3,10 @@
   "enabledCssSnippets": [
     "claude-style",
     "hide-meta-files",
-    "mono-accent"
+    "notion-style"
   ],
   "accentColor": "#009688",
-  "cssTheme": "Minimal"
+  "cssTheme": "Minimal",
+  "showRibbon": false,
+  "showViewHeader": false
 }

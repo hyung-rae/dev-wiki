@@ -1,0 +1,97 @@
+/* notion-style — Minimal 테마 위에 노션(Notion) 룩을 입히는 스니펫.
+   테마는 Minimal 유지, 강조색은 mono-accent/Obsidian accentColor에서 관리.
+   이 스니펫은 "외형"(색감·타이포·콜아웃·표·코드)만 노션 톤으로 덮어쓴다.
+   끄고 싶으면 설정 → 외관 → CSS 스니펫에서 토글 OFF. */
+
+/* ── 라이트: 노션 기본 토큰 ───────────────────────────── */
+.theme-light {
+  /* 노션 시그니처 본문색·배경 */
+  --text-normal: rgb(55, 53, 47);
+  --text-muted: rgba(55, 53, 47, 0.65);
+  --text-faint: rgba(55, 53, 47, 0.4);
+  --background-primary: #ffffff;
+  --background-primary-alt: #ffffff;
+  --background-secondary: #f7f6f3;        /* 노션 사이드바 톤 */
+  --background-secondary-alt: #f1f0ee;
+
+  /* 인라인 코드 — 노션 특유의 붉은 텍스트 + 옅은 배경 */
+  --code-normal: #eb5757;
+  --code-background: rgba(135, 131, 120, 0.15);
+
+  /* 경계선·구분선 */
+  --hr-color: rgba(55, 53, 47, 0.12);
+  --background-modifier-border: rgba(55, 53, 47, 0.12);
+
+  /* 노션 콜아웃 팔레트 (CLAUDE.md에서 쓰는 4종 + 보조) */
+  --callout-info: 35, 131, 226;       /* 파랑 */
+  --callout-tip: 15, 123, 108;        /* 초록 */
+  --callout-warning: 217, 115, 13;    /* 주황 */
+  --callout-question: 144, 101, 176;  /* 보라 */
+}
+
+/* ── 타이포그래피 ─────────────────────────────────────── */
+body {
+  /* 노션 기본 폰트 스택 (한글은 Apple SD Gothic Neo로 폴백) */
+  --font-text: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Apple SD Gothic Neo", "Pretendard", Roboto, sans-serif;
+  --font-interface: var(--font-text);
+}
+
+/* 제목 위계 — 노션식 굵기·간격 */
+.markdown-preview-view h1,
+.markdown-source-view.mod-cm6 .HyperMD-header-1 {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+.markdown-preview-view h2,
+.markdown-source-view.mod-cm6 .HyperMD-header-2 { font-weight: 600; }
+.markdown-preview-view h3,
+.markdown-source-view.mod-cm6 .HyperMD-header-3 { font-weight: 600; }
+
+/* ── 콜아웃 — 노션 callout 블록 ────────────────────────── */
+.callout {
+  border: none;
+  border-radius: 4px;
+  background-color: rgba(var(--callout-color), 0.06);
+  padding: 12px 14px 12px 12px;
+}
+.callout-title { padding: 0; font-weight: 600; }
+
+/* ── 표 — 얇은 경계선 + 옅은 헤더 ──────────────────────── */
+.markdown-rendered table {
+  border-collapse: collapse;
+  font-size: 0.92em;
+}
+.markdown-rendered th,
+.markdown-rendered td {
+  border: 1px solid var(--background-modifier-border);
+  padding: 7px 10px;
+}
+.markdown-rendered thead th {
+  background-color: var(--background-secondary);
+  font-weight: 600;
+}
+
+/* ── 인라인 코드 — 둥근 모서리 + 모노 폰트 ──────────────── */
+.markdown-rendered code {
+  border-radius: 4px;
+  padding: 0.1em 0.35em;
+  font-size: 0.85em;
+}
+
+/* ── 인용구 ───────────────────────────────────────────── */
+.markdown-rendered blockquote {
+  border-left: 3px solid var(--text-normal);
+  background: transparent;
+  color: var(--text-normal);
+}
+
+/* ── 다크: 노션 다크 톤 (보조) ─────────────────────────── */
+.theme-dark {
+  --text-normal: rgba(255, 255, 255, 0.9);
+  --background-primary: #191919;
+  --background-primary-alt: #191919;
+  --background-secondary: #202020;
+  --code-normal: #ff7369;
+  --code-background: rgba(255, 255, 255, 0.08);
+}
