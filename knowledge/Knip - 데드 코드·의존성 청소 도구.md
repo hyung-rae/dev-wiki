@@ -39,3 +39,5 @@ npx knip --fix      # 미사용 export·의존성 자동 제거
 
 ## 관련 노트
 - [[JS·TS 미사용 패키지 정리 도구 비교]] — depcheck·npm-check와의 비교, Knip이 상위 호환인 이유
+- [[팬텀 디펜던시]] — Unlisted Dependencies 항목이 탐지하는 미선언 의존성 문제
+- [[Knip entry 설정과 동적 import 오탐]] — 그래프 추적의 출발점(entry) 배열과, next/dynamic을 못 따라가 생기는 오탐 교정법
