@@ -67,8 +67,12 @@ body {
   border: 1px solid var(--background-modifier-border);
   padding: 7px 10px;
 }
-.markdown-rendered thead th {
-  background-color: var(--background-secondary);
+/* 헤더 행은 컬럼 위치(홀/짝)와 무관하게 한 색으로 통일.
+   Minimal 테마의 nth-child 컬럼 줄무늬가 헤더까지 칠하는 걸 덮어쓴다. */
+.markdown-rendered thead th,
+.markdown-rendered thead th:nth-child(odd),
+.markdown-rendered thead th:nth-child(even) {
+  background-color: var(--background-secondary) !important;
   font-weight: 600;
 }
 

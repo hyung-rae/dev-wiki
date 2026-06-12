@@ -1,11 +1,11 @@
 {
-  "collapse-filter": false,
-  "search": "",
+  "collapse-filter": true,
+  "search": "path:cs OR path:knowledge  ",
   "showTags": false,
   "showAttachments": true,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "path:cs/",
@@ -39,6 +39,6 @@
   "repelStrength": 15.3828125,
   "linkStrength": 1,
   "linkDistance": 123,
-  "scale": 0.8660100190773357,
+  "scale": 0.6303543636173106,
   "close": true
 }
