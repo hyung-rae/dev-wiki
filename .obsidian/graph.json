@@ -1,11 +1,11 @@
 {
-  "collapse-filter": true,
+  "collapse-filter": false,
   "search": "path:cs OR path:knowledge  ",
   "showTags": false,
   "showAttachments": true,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "path:cs/",
@@ -31,14 +31,14 @@
   ],
   "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": -3,
-  "nodeSizeMultiplier": 1.19250434027778,
-  "lineSizeMultiplier": 2.2724609375,
+  "textFadeMultiplier": -0.3,
+  "nodeSizeMultiplier": 0.684639756944444,
+  "lineSizeMultiplier": 1.65825954861111,
   "collapse-forces": false,
-  "centerStrength": 0.50859375,
-  "repelStrength": 15.3828125,
-  "linkStrength": 1,
-  "linkDistance": 123,
-  "scale": 0.6303543636173106,
+  "centerStrength": 0.391883680555556,
+  "repelStrength": 9.31076388888889,
+  "linkStrength": 0.859114583333333,
+  "linkDistance": 73,
+  "scale": 0.7108947179120614,
   "close": true
 }
