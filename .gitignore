@@ -9,5 +9,8 @@
 # Claude 로컬 설정
 .claude/settings.local.json
 
+# 간단 메모용 (동기화 불필요)
+_note/
+
 # macOS
 .DS_Store
