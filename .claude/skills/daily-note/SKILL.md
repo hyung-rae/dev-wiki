@@ -58,17 +58,20 @@ description: Use when the user says "데일리 노트 생성" — creates today'
 
 ### Step 5 — 오늘의 개발 이슈 추가
 
-- WebSearch로 당일 화제가 된 개발 이슈를 검색한다.
-  - 검색 쿼리 예: `"AI news today YYYY-MM-DD"`, `"AI coding tools news"`, `"frontend developer news"` 등 2~3회 검색해 결과를 모은다.
-- 선정 기준: **AI 관련 이슈(모델 릴리스, AI 코딩 도구, AI 업계 동향) 위주**, 프론트엔드(React, TypeScript, 브라우저, JS 생태계) 이슈도 포함. 총 **3~5개**.
+- **출처 우선순위**대로 채운다. 총 **3~5개**.
+  1. **GeekNews** (`https://news.hada.io/`) — WebFetch로 인기 글 목록을 가져온다. 각 글의 상세 링크는 `https://news.hada.io/topic?id=...` 형태.
+  2. **요즘IT** (`https://yozm.wishket.com/magazine/`) — WebFetch로 최신 매거진 글을 가져온다. 상세 링크는 `https://yozm.wishket.com/magazine/detail/숫자/` 형태.
+  3. **추천 보충** — 위 두 곳에서 3개를 못 채우거나 그날 굵직한 AI/프론트엔드 소식이 따로 있으면 WebSearch로 보충한다.
+  - 위 1·2를 우선 채우고, 모자란 만큼만 3에서 보충한다 (예: GeekNews 3 + 요즘IT 2).
+- 선정 기준: **AI 관련 이슈(모델 릴리스, AI 코딩 도구, AI 업계 동향) 위주**, 프론트엔드(React, TypeScript, 브라우저, JS 생태계) 이슈도 포함.
 - `## 오늘의 개발 이슈` 섹션에 삽입한다.
-  - 형식: `- [I] [제목](링크) — 한 줄 요약` (Minimal 테마 Info 아이콘)
-  - 제목은 한국어로 요약하되, 기술 용어는 원문 유지.
+  - 형식: `- [I] [제목](링크) — 한 줄 요약 (출처)` (Minimal 테마 Info 아이콘)
+  - 제목은 한국어로 요약하되, 기술 용어는 원문 유지. 출처는 `(GeekNews)` / `(요즘IT)`로 표기하고, 추천 보충 항목은 출처를 생략한다.
 
 ```markdown
 ## 오늘의 개발 이슈
-- [I] [Claude Opus 4.8 출시](https://...) — SWE-bench Verified 88.6%, 1M 토큰 기본 컨텍스트
-- [I] [React 19.2 릴리스 — Activity 컴포넌트 추가](https://react.dev/...) — Suspense 경계 외부에서 UI 상태 보존 가능
+- [I] [Cate — 무한 줌이 가능한 코딩용 캔버스 IDE](https://news.hada.io/topic?id=30438) — 무한 캔버스 위 공간형 레이아웃으로 개발 도구를 통합 (GeekNews)
+- [I] [정말로 지금은 Codex가 Claude Code보다 나을까?](https://yozm.wishket.com/magazine/detail/3771/) — 두 AI 코딩 도구의 성능·특징 비교 (요즘IT)
 ```
 
 - 검색 실패 또는 유의미한 이슈가 없으면 섹션을 빈 채로 두고 계속 진행한다.
