@@ -9,6 +9,9 @@
 # Claude 로컬 설정
 .claude/settings.local.json
 
+# OMC 런타임 상태 (세션·메모리 캐시, 동기화 불필요)
+.omc/
+
 # 간단 메모용 (동기화 불필요)
 _note/
 
