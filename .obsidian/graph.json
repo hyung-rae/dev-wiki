@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "path:cs OR path:knowledge  ",
+  "search": "path:knowledge  ",
   "showTags": false,
   "showAttachments": true,
   "hideUnresolved": false,
@@ -39,6 +39,6 @@
   "repelStrength": 9.31076388888889,
   "linkStrength": 0.859114583333333,
   "linkDistance": 73,
-  "scale": 1.0627451195807442,
+  "scale": 1.0877305755853133,
   "close": true
 }
