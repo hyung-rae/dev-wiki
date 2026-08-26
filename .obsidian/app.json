@@ -2,5 +2,6 @@
   "promptDelete": false,
   "alwaysUpdateLinks": true,
   "showInlineTitle": true,
-  "defaultViewMode": "preview"
+  "defaultViewMode": "preview",
+  "attachmentFolderPath": "assets"
 }

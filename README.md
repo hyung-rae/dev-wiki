@@ -11,6 +11,7 @@
 | `knowledge/`       | 지식 노트 — atomic, 플랫 구조. 개념 1개 = 노트 1개                  |
 | `cs/`              | CS 처리 기록 — 현상·원인·처리. 제품 구분은 `#qshop` / `#quv` 태그로 |
 | `데일리 체크리스트.md` | 루트의 단일 데일리 문서 (날짜별 섹션 누적)              |
+| `assets/`          | 노트 첨부 이미지 등 (Obsidian 첨부 저장 위치)                       |
 | `스타일 가이드.md` | 노트 작성 시 따르는 마크다운 스타일 기준 문서                       |
 | `CLAUDE.md`        | [Claude Code](https://claude.com/claude-code) 작업 규칙             |
 

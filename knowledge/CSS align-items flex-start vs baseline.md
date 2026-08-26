@@ -32,4 +32,4 @@ Flexbox `align-items`에서 `flex-start`는 **요소(박스)의 윗면**을, `ba
 </div>
 ```
 
-![[251f63d9-be75-4b7c-bcad-8435200d4f72.jpeg]]
+![[align-items-baseline-예시.jpeg]]
