@@ -1,5 +1,7 @@
 ---
 tags:
+  - css
+  - browser-rendering
   - css-transform
   - gpu-compositing
   - rasterization
@@ -25,3 +27,4 @@ tags:
 
 - [[GPU 합성 레이어와 빈 텍스처]] — 0px 텍스처가 캐시되는 전체 메커니즘
 - [[플립 애니메이션 텍스트 공백]] — 이 차이를 이용해 해결한 실제 사례
+- [[브라우저 렌더링]]

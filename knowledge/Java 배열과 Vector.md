@@ -48,3 +48,4 @@ String s = (String) obj;  // 캐스팅 필요
 - [[Java Reference 형 변환]]
 - [[Java Wrapper Class와 오토박싱]]
 - [[Java 반복문]]
+- [[Java]]

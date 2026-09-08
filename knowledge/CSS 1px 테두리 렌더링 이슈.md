@@ -1,5 +1,6 @@
 ---
 tags:
+  - browser-rendering
   - css
   - subpixel-rendering
   - pixel-snapping
@@ -154,3 +155,4 @@ transition/animation이 소수점 값을 지나칠 때 렌더 레이어가 픽�
 - [[Windows 1px 테두리 미표시]]
 - [[CSS image-rendering 속성]] — 브라우저 렌더링 방식 차이로 생기는 또 다른 이슈
 - [[GPU 합성 레이어와 빈 텍스처]] — 여기서 흐림 방지에 쓰는 `translateZ(0)` GPU 승격이 일으킬 수 있는 부작용
+- [[브라우저 렌더링]]

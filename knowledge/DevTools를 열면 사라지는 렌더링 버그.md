@@ -1,5 +1,6 @@
 ---
 tags:
+  - browser-rendering
   - rendering-bug
   - devtools
   - debugging
@@ -21,3 +22,4 @@ DevTools 가 열려 있으면 브라우저가 **레이어 캐싱을 줄이고 �
 
 - [[GPU 합성 레이어와 빈 텍스처]] — 이 신호가 가리키는 실제 원인
 - [[플립 애니메이션 텍스트 공백]] — 이 신호로 원인을 좁힌 실제 사례
+- [[브라우저 렌더링]]

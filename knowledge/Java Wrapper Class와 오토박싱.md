@@ -36,3 +36,4 @@ Boolean b = boo;
 ## 관련 노트
 - [[Java 배열과 Vector]]
 - [[Java 기본형 형 변환]]
+- [[Java]]

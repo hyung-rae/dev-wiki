@@ -22,3 +22,4 @@ tags:
 ## 관련 노트
 - [[Java 플랫폼 독립성과 JVM]]
 - [[Java 클래스 구성과 Inner Class]]
+- [[Java]]

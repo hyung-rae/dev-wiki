@@ -65,3 +65,4 @@ int salary  = rs.getInt("Salary");
 ## 관련 노트
 - [[Java 예외 처리]]
 - [[Java IO 패키지와 Stream]]
+- [[Java]]

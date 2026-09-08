@@ -1,6 +1,6 @@
 ---
 tags:
-  - knowledge
+  - browser-rendering
   - css
   - flexbox
   - baseline
@@ -33,3 +33,6 @@ Flexbox `align-items`에서 `flex-start`는 **요소(박스)의 윗면**을, `ba
 ```
 
 ![[align-items-baseline-예시.jpeg]]
+
+## 관련 노트
+- [[브라우저 렌더링]]

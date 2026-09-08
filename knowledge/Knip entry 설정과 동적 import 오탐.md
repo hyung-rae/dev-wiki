@@ -1,5 +1,6 @@
 ---
 tags:
+  - dependency-management
   - knip
   - entry
   - dynamic-import
@@ -63,3 +64,4 @@ const Editor = dynamic(
 
 ## 관련 노트
 - [[Knip - 데드 코드·의존성 청소 도구]] — entry 그래프 추적을 수행하는 도구 본체이자, 그 한계가 동적 import 오탐을 낳음
+- [[의존성 관리]]

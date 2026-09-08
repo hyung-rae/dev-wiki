@@ -49,3 +49,4 @@ key를 가진 스레드가 계속 실행되어 **다른 스레드가 Synchronize
 ## 관련 노트
 - [[Java IO 패키지와 Stream]]
 - [[Java Interface와 다중상속 보완]]
+- [[Java]]

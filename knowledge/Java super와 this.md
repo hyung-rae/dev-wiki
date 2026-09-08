@@ -40,3 +40,4 @@ this.getA();    // 내 클래스의 getA()
 - [[Java 객체지향의 관계 - 계층화와 일반화]]
 - [[Java Reference 형 변환]]
 - [[Java 클래스 구성과 Inner Class]]
+- [[Java]]

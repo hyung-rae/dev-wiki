@@ -38,3 +38,4 @@ System.out.println(number);    // 5
 ## 관련 노트
 - [[Java 산술 연산자]]
 - [[Java 비교 연산자와 논리 연산자]]
+- [[Java]]

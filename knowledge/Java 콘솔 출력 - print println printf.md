@@ -48,3 +48,4 @@ System.out.printf("%S\n", "abc");      // ABC   대문자로
 ## 관련 노트
 - [[Java Scanner와 버퍼 메모리]]
 - [[Java 산술 연산자]]
+- [[Java]]

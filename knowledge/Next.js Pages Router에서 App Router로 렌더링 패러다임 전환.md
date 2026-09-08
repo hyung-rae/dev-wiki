@@ -55,3 +55,4 @@ export default async function PostDetailPage({ params }) {
 ## 관련 노트
 
 - [[Next.js ISR 증분 정적 재생성]] — 위 매핑에서 ISR이 실제로 어떻게 동작하는지(부분 빌드·재검증)
+- [[Next.js와 SEO]]

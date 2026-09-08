@@ -38,3 +38,4 @@ b = (byte) -129;  //  127   언더플로우: 최솟값을 넘어 양의 최댓�
 ## 관련 노트
 - [[Java Reference 형 변환]]
 - [[Java Wrapper Class와 오토박싱]]
+- [[Java]]

@@ -1,5 +1,6 @@
 ---
 tags:
+  - browser-rendering
   - gpu-compositing
   - compositor-layer
   - css-animation
@@ -53,3 +54,4 @@ flowchart TD
 - [[DevTools를 열면 사라지는 렌더링 버그]] — 이 버그의 대표 진단 신호
 - [[플립 애니메이션 텍스트 공백]] — 이 개념이 원인이 된 실제 CS 사례
 - [[CSS 1px 테두리 렌더링 이슈]] — 같은 `translateZ(0)` GPU 승격을 1px 흐림 방지에 활용하는 사례
+- [[브라우저 렌더링]]

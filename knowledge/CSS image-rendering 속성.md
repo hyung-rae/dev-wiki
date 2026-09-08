@@ -1,5 +1,6 @@
 ---
 tags:
+  - browser-rendering
   - css
   - image-rendering
   - image-interpolation
@@ -22,3 +23,4 @@ tags:
 ## 관련 노트
 
 - [[썸네일 자글거림 - 게시판·상품 썸네일]] — 이 속성이 원인이 된 CS 사례
+- [[브라우저 렌더링]]

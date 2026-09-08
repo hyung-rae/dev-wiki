@@ -48,3 +48,4 @@ Java가 주는 것 말고 나만의 예외가 필요할 때가 있다. **`Except
 ## 관련 노트
 - [[Java static final abstract 제어자]]
 - [[Java IO 패키지와 Stream]]
+- [[Java]]

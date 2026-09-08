@@ -67,3 +67,4 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 ## 관련 노트
 
 - [[sitemap.xml]] — 이 기능이 생성하는 파일의 개념과 표준 구조
+- [[Next.js와 SEO]]

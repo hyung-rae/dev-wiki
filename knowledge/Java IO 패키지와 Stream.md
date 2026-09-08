@@ -50,3 +50,4 @@ Writer w = new OutputStreamWriter();
 - [[Java Interface와 다중상속 보완]]
 - [[Java Thread와 동기화]]
 - [[Java Scanner와 버퍼 메모리]]
+- [[Java]]

@@ -29,3 +29,4 @@ scanner.close();
 ## 관련 노트
 - [[Java 콘솔 출력 - print println printf]]
 - [[Java IO 패키지와 Stream]]
+- [[Java]]

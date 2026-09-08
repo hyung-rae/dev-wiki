@@ -29,3 +29,4 @@ Next.js 13의 App Router부터 `getStaticPaths`·`revalidate` 옵션이 폐지�
 ## 관련 노트
 
 - [[Next.js Pages Router에서 App Router로 렌더링 패러다임 전환]] — ISR을 포함한 렌더링 방식이 라우터별로 어떻게 구현되는지 매핑
+- [[Next.js와 SEO]]
