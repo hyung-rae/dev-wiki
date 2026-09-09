@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "path:knowledge  ",
+  "search": "path:knowledge OR path:cs",
   "showTags": false,
   "showAttachments": true,
   "hideUnresolved": false,
@@ -8,37 +8,65 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:cs/",
+      "query": "tag:#moc",
       "color": {
         "a": 1,
-        "rgb": 15277667
+        "rgb": 16763200
       }
     },
     {
-      "query": "path:knowledge/",
+      "query": "tag:#java",
+      "color": {
+        "a": 1,
+        "rgb": 15233082
+      }
+    },
+    {
+      "query": "tag:#react",
+      "color": {
+        "a": 1,
+        "rgb": 6413051
+      }
+    },
+    {
+      "query": "tag:#nextjs",
+      "color": {
+        "a": 1,
+        "rgb": 5025616
+      }
+    },
+    {
+      "query": "tag:#browser-rendering",
+      "color": {
+        "a": 1,
+        "rgb": 10513621
+      }
+    },
+    {
+      "query": "tag:#dependency-management",
       "color": {
         "a": 1,
         "rgb": 38536
       }
     },
     {
-      "query": "path:/",
+      "query": "path:cs/",
       "color": {
         "a": 1,
-        "rgb": 14210264
+        "rgb": 15277667
       }
     }
   ],
   "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": -0.6,
-  "nodeSizeMultiplier": 0.697994861483467,
-  "lineSizeMultiplier": 1.04994973190349,
+  "textFadeMultiplier": -0.1,
+  "nodeSizeMultiplier": 0.431702412868633,
+  "lineSizeMultiplier": 0.640247989276139,
   "collapse-forces": false,
   "centerStrength": 0.391883680555556,
   "repelStrength": 9.31076388888889,
   "linkStrength": 0.859114583333333,
   "linkDistance": 73,
-  "scale": 0.8933211519590993,
+  "scale": 0.4912165721811395,
   "close": false
 }
