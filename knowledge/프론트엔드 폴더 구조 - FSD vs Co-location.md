@@ -59,3 +59,7 @@ src/
 
 - [!] **속도·생산성이 우선이면**: FSD를 무리하게 적용하지 말고 **Co-location으로 시작**하되 `index.ts` barrel export로 최소 캡슐화 유지.
 - [!] **도메인 의존성이 꼬였다면**: 전체 FSD 대신 `shared`·`entities` 개념만 **부분 차용**해 점진적으로 결합도를 낮춘다.
+
+## 관련 노트
+- [[container-presentational 패턴]] — 한 화면 안에서 로직과 뷰를 가르는 더 작은 단위의 분리
+- [[React]]
